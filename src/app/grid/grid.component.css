@@ -1,0 +1,63 @@
+.main-container {
+  height: 100%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 100%;
+  grid-template-areas: "content-container data-container"
+}
+
+#content-container {
+  grid-area: content-container;
+}
+
+#data-container {
+  grid-area: data-container;
+  background-color: #1E2332;
+  overflow-y: scroll;
+}
+
+#divProperty {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.templateAreas {
+  overflow-x: scroll;
+  display: -webkit-box;
+}
+
+.templateAreaInput {
+  width: 70px;
+  margin: 0px 5px 5px 0px;
+}
+
+.templateAreaLabel {
+  width: 70px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0px;
+}
+
+input,
+textarea {
+  font-size: 17px;
+  background: #211f2f;
+  color: #fff;
+  width: 85%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+label {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+  margin: 8px 0px 2px 0px;
+}
+
+button:focus {
+  outline: none;
+}

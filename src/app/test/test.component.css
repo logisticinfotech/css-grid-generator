@@ -1,0 +1,52 @@
+.parent {
+  height: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "div1 div2 div3""div4 div5 div6""div7 div8 div9";
+}
+
+.div1 {
+  border: 1px solid red;
+  grid-area: div1 / div1 / div1 / div1;
+}
+
+.div2 {
+  border: 1px solid red;
+  grid-area: div2 / div2 / div2 / div2;
+}
+
+.div3 {
+  border: 1px solid red;
+  grid-area: div3 / div3 / div3 / div3;
+}
+
+.div4 {
+  grid-area: div4 / div4 / div4 / div4;
+}
+
+.div5 {
+  border: 1px solid red;
+  grid-area: div5 / div5 / div5 / div5;
+}
+
+.div6 {
+  border: 1px solid red;
+  grid-area: div6 / div6 / div6 / div6;
+}
+
+.div7 {
+  border: 1px solid red;
+  grid-area: div7 / div7 / div7 / div7;
+}
+
+.div8 {
+  border: 1px solid red;
+  grid-area: div8 / div8 / div8 / div8;
+}
+
+.div9 {
+  border: 1px solid red;
+  grid-area: div9 / div9 / div9 / div9;
+}
